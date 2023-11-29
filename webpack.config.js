@@ -42,17 +42,6 @@ module.exports = (env, argv) => ({
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        SUPABASE_ANON_KEY:
-          "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0'",
-        API_URI:
-          argv.mode === 'production'
-            ? "'https://wsmspxdvmzfianweygzg.supabase.co'"
-            : "'http://localhost:54321'",
-        CHECKOUT_URI:
-          argv.mode === 'production'
-            ? "'https://reqsy.lemonsqueezy.com/checkout/buy/db61685e-cfb9-42e3-bfe2-2ec34cab6038'"
-            : "'https://reqsy.lemonsqueezy.com/checkout/buy/63b790bc-c13e-4868-a830-526519061e3a'",
-        AUTH_OVERRIDE: null, // "'trial-expired'", "'trial'", "'pro-expired'", "'pro'", null,
         VERBOSE_LOGS: argv.mode === 'production'? false : "'true'",
       },
     }),

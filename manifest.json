@@ -1,17 +1,13 @@
 {
-  "name": "Reqsy",
-  "id": "1301932559478184408",
+  "name": "figma-plugin-starter-template",
+  "id": "",
   "api": "1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",
   "editorType": ["figma"],
   "permissions": ["currentuser"],
   "networkAccess": {
-    "allowedDomains": [
-      "https://*.supabase.co",
-      "https://wsmspxdvmzfianweygzg.supabase.co",
-      "https://fontsgoogleapis.com"
-    ],
-    "devAllowedDomains": ["http://localhost:54321", "https://fontsgoogleapis.com"]
+    "allowedDomains": ["none"],
+    "devAllowedDomains": []
   }
 }

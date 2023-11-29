@@ -21,3 +21,8 @@ This repo is using:
 - React + Webpack
 - TypeScript
 - Prettier precommit hook
+
+## Values to enter
+### ./manifest.json
+**id** - leave empty until assigned at first publish attempt, then add
+**networkAccess.allowedDomains, networkAccess.devAllowedDomains** - any url you acess for production or development must be declared

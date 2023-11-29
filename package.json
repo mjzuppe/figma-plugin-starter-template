@@ -1,8 +1,8 @@
 {
-  "name": "reqsy",
-  "version": "0.7.1",
-  "description": "PRD and technical requirements documentation management for Figma",
-  "license": "ISC",
+  "name": "figma-plugin-starter-template",
+  "version": "0.0.1",
+  "description": "Boilerplate for Figma plugin development environment",
+  "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production", 
     "build:watch": "webpack --mode=development --watch",
