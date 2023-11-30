@@ -4,6 +4,8 @@
 
 This template contains the react example as shown on [Figma Docs](https://www.figma.com/plugin-docs/intro/), with some structural changes and extra tooling.
 
+It's based on the [Reqsy Figma Plugin](https://reqsy.co)
+
 ## Quickstart
 
 - Run `yarn` to install dependencies.
